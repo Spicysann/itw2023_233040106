@@ -1,5 +1,6 @@
 body {
-    background-color: aqua;
+    background-image: url(foto/background.png);
+    background-size: cover;
     font-family: Georgia;
 }
 
@@ -11,11 +12,15 @@ h1 {
 }
 
 h4 {
-    text-align: end;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
 }
 
 .a1 {
-    color: white;
+    color: orangered;
     font-variant-caps: petite-caps;
 }
 
@@ -24,13 +29,13 @@ h4 {
 }
 
 .a2 {
-    font-weight: bold;
     color: blue;
+    font-weight: bold;
 }
 
 .a2:hover {
-    color: white;
     background-color: blue;
+    color: white;
 }
 
 .pertama {
