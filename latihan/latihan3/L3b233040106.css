@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+    font-family: georgia;
+}
+
+h1 {
+    font-family: Comic Sans MS;
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+}
+
+h4 {
+    text-align: right;
+}
+
+h3 a {
+    color: white;
+}
+
+.pertama {
+    color: orange;
+    text-align: center;
+}
+
+.kedua {
+    text-align: right;
+}
