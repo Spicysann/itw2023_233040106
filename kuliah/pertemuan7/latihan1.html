@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 7 - Latihan 1</title>
+    <style>
+        .div {}
+
+        .kotak1 {
+            width: 150px;
+            height: 150px;
+            background-color: burlywood;
+            margin: 50px auto;
+            border-radius: 10% 10% 10% 10%;
+            text-align: center;
+            line-height: 150px;
+        }
+
+        .kotak2 {
+            width: 150px;
+            height: 150px;
+            background-color: lightblue;
+            margin: 50px auto;
+            border-radius: 50%;
+            /* box-shadow: <x-offset> <y-offset> <blur> [size] <color>; */
+            box-shadow: 0 0 10px 10px rgb(26, 0, 128), 0 0 10px 20px yellow, 0 0 10px 30px rgb(0, 255, 195), 0 0 10px 40px red;
+            transition-duration: 2s;
+            text-align: center;
+            line-height: 150px;
+        }
+
+        .kotak2:hover {
+            border-radius: 0px;
+            transform: rotate(7200);
+            box-shadow: 0 0 0px 10px rgb(255, 0, 217), 0 0 0px 20px rgb(0, 255, 38), 0 0 0px 30px rgb(143, 32, 115), 0 0 0px 40px rgb(255, 187, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kotak1">
+        <p>Halo, saya sandy</p>
+    </div>
+    <div class="kotak2">
+        <p>Halo, Saya Sandy</p>
+    </div>
+</body>
+
+</html>
